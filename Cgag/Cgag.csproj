@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0CC867D5-E47E-447D-B220-836FAA659821}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cgag</RootNamespace>
+    <AssemblyName>Cgag</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attributes\Disclaimer\AhaMoment.cs" />
+    <Compile Include="Attributes\Disclaimer\BossMadeMeDoIt.cs" />
+    <Compile Include="Attributes\Disclaimer\HandsOff.cs" />
+    <Compile Include="Attributes\Disclaimer\IAmAwesome.cs" />
+    <Compile Include="Attributes\Disclaimer\LegacySucks.cs" />
+    <Compile Include="Attributes\Disclaimer\NameCourtesyOfTranslationParty.cs" />
+    <Compile Include="Attributes\Disclaimer\ProbablyIllegalIn.cs" />
+    <Compile Include="Attributes\Disclaimer\SafeForSpeedsNotExceeding.cs" />
+    <Compile Include="Attributes\Enforceable\AnswerToTheUltimateQuestionOfLifeTheUniverseAndEverything.cs" />
+    <Compile Include="Attributes\Enforceable\InfiniteImprobabilityDriveFactor.cs" />
+    <Compile Include="Attributes\Enforceable\Noop.cs" />
+    <Compile Include="Attributes\Enforceable\ThisHadBetterNotBe.cs" />
+    <Compile Include="Attributes\Literary\Alliteration.cs" />
+    <Compile Include="Attributes\Literary\HapaxLegomenon.cs" />
+    <Compile Include="Attributes\Literary\Metaphor.cs" />
+    <Compile Include="Attributes\Literary\Meter.cs" />
+    <Compile Include="Attributes\Literary\Oxymoron.cs" />
+    <Compile Include="Attributes\Literary\Palindrome.cs" />
+    <Compile Include="Attributes\Literary\Synecdoche.cs" />
+    <Compile Include="Attributes\Literary\Verse\BurmaShave.cs" />
+    <Compile Include="Attributes\Literary\Verse\Clerihew.cs" />
+    <Compile Include="Attributes\Literary\Verse\DoubleDactyl.cs" />
+    <Compile Include="Attributes\Literary\Verse\Haiku.cs" />
+    <Compile Include="Attributes\Literary\Verse\Limerick.cs" />
+    <Compile Include="Attributes\Literary\Verse\Sonnet.cs" />
+    <Compile Include="Attributes\Remark\Doh.cs" />
+    <Compile Include="Attributes\Remark\Fail.cs" />
+    <Compile Include="Attributes\Remark\FTW.cs" />
+    <Compile Include="Attributes\Remark\OhNoYouDidnt.cs" />
+    <Compile Include="Attributes\Remark\OhSnap.cs" />
+    <Compile Include="Attributes\Remark\PleaseDontShowUpOn.cs" />
+    <Compile Include="Attributes\Remark\RTFM.cs" />
+    <Compile Include="Attributes\Remark\ShoutOutTo.cs" />
+    <Compile Include="Attributes\Remark\WhosYour.cs" />
+    <Compile Include="Attributes\Remark\Win.cs" />
+    <Compile Include="Attributes\Remark\YouJustKilledAKitten.cs" />
+    <Compile Include="Attributes\Team\Blame.cs" />
+    <Compile Include="Attributes\Team\Channeling.cs" />
+    <Compile Include="Attributes\Team\Fired.cs" />
+    <Compile Include="Attributes\Team\HonorableMention.cs" />
+    <Compile Include="Attributes\Team\Visionary.cs" />
+    <Compile Include="Attributes\Disclaimer\AnimalsHarmedDuringTheMaking.cs" />
+    <Compile Include="Attributes\Disclaimer\CarbonFootprint.cs" />
+    <Compile Include="Attributes\Disclaimer\WrittenWhile.cs" />
+    <Compile Include="Attributes\Remark\Booyah.cs" />
+    <Compile Include="Attributes\Remark\Facepalm.cs" />
+    <Compile Include="Attributes\Remark\Hack.cs" />
+    <Compile Include="Attributes\Remark\LOL.cs" />
+    <Compile Include="Enumeration\ChannelingEntity.cs" />
+    <Compile Include="Enumeration\Consequence.cs" />
+    <Compile Include="Enumeration\FamilyMember.cs" />
+    <Compile Include="Enumeration\Feet.cs" />
+    <Compile Include="Enumeration\MagicType.cs" />
+    <Compile Include="Enumeration\Measure.cs" />
+    <Compile Include="Enumeration\OpinionOfHumanity.cs" />
+    <Compile Include="Enumeration\Outcome.cs" />
+    <Compile Include="Enumeration\RegionType.cs" />
+    <Compile Include="Enumeration\SpeedUnits.cs" />
+    <Compile Include="Enumeration\Website.cs" />
+    <Compile Include="Enumeration\Where.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Attributes\Remark\Magic.cs" />
+    <Compile Include="Attributes\Remark\ObligatoryQuote.cs" />
+    <Compile Include="Attributes\Remark\ThisWouldBeOneLineIn.cs" />
+    <Compile Include="Attributes\Remark\WTF.cs" />
+    <Compile Include="Enumeration\CO2Units.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
