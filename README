@@ -1,0 +1,5 @@
+The Google gag library written in C#
+
+Missing features :
+- Pretty much everything in the "enforceable" namespace.
+
