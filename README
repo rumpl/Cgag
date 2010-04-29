@@ -1,6 +1,7 @@
 The Google gag library written in C#
 
 For more info see: http://code.google.com/p/gag
+Or you can see the awesome (i really like the background color) official project page : http://rumpl.github.com/Cgag/
 
 Missing features :
 - Pretty much everything in the "enforceable" namespace.
