@@ -1,5 +1,19 @@
 The Google gag library written in C#
 
+For more info see: http://code.google.com/p/gag
+
 Missing features :
 - Pretty much everything in the "enforceable" namespace.
+
+Example :
+
+using Cgag.Attributes.Disclaimer;
+
+/* code code code */
+
+[BossMadeMeDoIt]
+public void WorkOnWeekends()
+{
+  /* ... */
+}
 
