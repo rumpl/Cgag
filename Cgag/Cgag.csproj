@@ -51,6 +51,7 @@
     <Compile Include="Attributes\Disclaimer\IAmAwesome.cs" />
     <Compile Include="Attributes\Disclaimer\LegacySucks.cs" />
     <Compile Include="Attributes\Disclaimer\NameCourtesyOfTranslationParty.cs" />
+    <Compile Include="Attributes\Disclaimer\PokemonExceptionHandling.cs" />
     <Compile Include="Attributes\Disclaimer\ProbablyIllegalIn.cs" />
     <Compile Include="Attributes\Disclaimer\SafeForSpeedsNotExceeding.cs" />
     <Compile Include="Attributes\Enforceable\AnswerToTheUltimateQuestionOfLifeTheUniverseAndEverything.cs" />
