@@ -18,3 +18,4 @@ public void WorkOnWeekends()
   /* ... */
 }
 
+And of course, it's on Nuget now : http://nuget.org/List/Packages/Cgag
